@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	
+</head>
+<body style="background-color:yellow">
+
+<h1 style="font-size:66px ; color:blue"><b><u><center>SILICON INSTITUTE OF TECHNOLOGY</u></b></center></h1>
+<br>
+<marquee><b style="color:blue;">NOTICE-All The Students Are Requested to take their Admit Card From Examination Section</b></marquee>
+<h2><b><pre>      Home About Academics Addmission Research Placements Campus-life Aluminus Contact-Us</pre></b></h2>
+<br>
+<p style="color:blue;font-size:23px"> <b>&emsp;Silicon Institute of Technology combines a commitment to providing the best engineering education with supporting India's &ensp; development in science and technology through rigorous academic programs, promoting fundamental and applied research, and &ensp;  fostering innovation and entrepreneurship.
+
+Founded in 2001 in the eastern state of Odisha, India, Silicon Institute of Technology &emsp;(SIT) is known for its community of reputed and dedicated faculty, bright and talented students, and effective administration and &ensp; support staff in both the campuses.<b></p>
+<br>
+<b style="font-size:44px"><u>Latest</u> </b>
+<br>
+<b style="font-size:44px">&emsp;@ Silicon</b>
+<sub style="font-size:18px"><i>beyond teaching</i></sub>
+<br>
+<b style="font-size:22px;color:blue"> &ensp;&ensp;&ensp;&ensp;1.Students willing to take admission in various programs offered by Silicon Institute of
+Technology in its Bhubaneswar & Sambalpur campus can fill the online application from
+20th Aug 2025.</b>
+<br>
+<b style="font-size:22px;color:blue"> &ensp;&ensp;&ensp;&ensp;2..SiliconTech has been ranked 161 under the engineering category in the NIRF (National Institutional Ranking Framework) Rankings 2025 </b>
+<br>
+<b style="font-size:22px;color:blue"> &ensp;&ensp;&ensp;&ensp;3.Shreayash Swain from the B.Tech. CSE Batch of 2025 gets placed in Amazon with 75 LPA</b>
+<br>
+<b style="font-size:22px;color:blue"> &ensp;&ensp;&ensp;&ensp;4.SiliconTech launches its 2025 Summer Internship program</b>
+	
+
+</body>
+</html>
+ 

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<html>
+<head>
+  <title> </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/myscipt.js"></script>
+</head>
+<body>
+    <div class="container mt-12">
+        <button id="mybutton" class="btn btn-primary" onclick="changebutton()" value="Submit">submit</button>
+        
+    </div>
+    <div class="container mt-5">
+        <button id="mybutton2" class="btn btn-primary" onclick="time()" value="submit">click me to get the time</button>
+        
+    </div>
+    <h2>
+        first javascript
+    </h2>
+    <script>
+        alert("hello buddy");
+    </script>
+    <div class="container mt-5">
+        <img src="data:image/jpeg;base64,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">
+        <button id="light" class="btn btn-primary" onclick="toogle()" value="ON">ON/OFF</button>
+        
+    </div>
+    <div class="container mt-5">
+        <button class="btn btn-primary" onclick="hide()" value="submit"  button id="myhide">HIDE</button>
+       <p id="mypara">A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.</p> 
+        
+    
+    <!--/div>
+    <div class="container mt-5">
+        <input<button id="cal1" class="btn btn-primary" value="submit">value1</button>>
+        
+    </div>
+    <input type="text" placeholder="Type something..." id="myInput">
+    <button type="button" >Get Value</button>
+    <div class="container mt-5">
+        <input<button id="cal3" class="btn btn-primary" value="submit"button id="">value3</button>>
+        
+    </div>
+    <div class="container mt-5">
+        <input<button class="btn btn-primary" onclick="calculation()" value="submit"button id="">sum</button>>
+        
+    </div-->
+    <input type="text" id="myInput1"> <button type="button" class="btn btn-primary" onclick="search()">Get Word</button>
+    
+    <br>
+    <input type="text" id="val1"> <button type="button" onclick="calculate()" class="btn btn-primary" >1st value</button>
+    <input type="text" id="val2"> <button type="button" onclick="calculate()" class="btn btn-primary" >2nd value</button>
+    <input type="text" id="val3"> <button type="button" onclick="calculate()" class="btn btn-primary" >3rd value</button>
+    <br>
+    <!--button class="btn btn-primary" onclick="calculate()" value="submit"  button id="myhide">SUM</button-->
+    Sum: <input type="text" onclick="calculate()" id="final"  />
+
+    <div class="alert alert-success" role="alert" id="success" style="display: none">
+        This is a success alert—check it out!
+    </div>
+    <div class="alert alert-danger" role="alert" id="failed" style="display: none">
+        This is a danger alert—check it out!
+    </div>
+
+
+
+  
+</body>

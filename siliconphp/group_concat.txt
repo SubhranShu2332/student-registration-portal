@@ -1,0 +1,12 @@
+select *,(select categoryName from categorymaster where categoryId=x.categoryId) categoryName from studentmaster x,(SELECT b.studentId, group_concat(facilitiesName) FROM `facilitiesmaster` a, studentfacility b where a.facilitiesId=b.facilitiesId group by b.studentId) d 
+where d.studentId=x.studentId;
+
+
+select *,y.categoryName
+  from studentmaster x , categorymaster y,
+  (SELECT b.studentId, group_concat(facilitiesName)
+     FROM `facilitiesmaster` a, studentfacility b
+    where a.facilitiesId=b.facilitiesId group by b.studentId) d 
+where d.studentId=x.studentId and y.categoryId=x.categoryId;
+
+SELECT studentId,group_concat(facilitiesName) FROM `facilitiesmaster` a inner join studentfacility b on a.facilitiesId=b.facilitiesId group by studentId;
