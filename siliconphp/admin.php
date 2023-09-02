@@ -10,7 +10,7 @@
    // Create a SQL string to retrieve the data from the table
    $sql = "SELECT user_name FROM admin_login where admin_id='$Uname' and password='$Pass' and status='ON'";
 
-   EXECUTE THE QUERY
+   // EXECUTE THE QUERY
    $result = mysqli_query($conn,$sql);
 
    // Check the number of rows
